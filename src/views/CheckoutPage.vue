@@ -47,7 +47,6 @@ const paymentMethod = ref("");
 const success = ref(false);
 
 function placeOrder() {
-  // هنا ممكن تبعت البيانات لـ API أو تعمل تخزين لو حابب
   console.log("Order placed:", {
     name: name.value,
     address: address.value,
@@ -55,10 +54,8 @@ function placeOrder() {
     paymentMethod: paymentMethod.value,
   });
 
-  // اظهر رسالة النجاح
   success.value = true;
 
-  // Reset النموذج
   name.value = "";
   address.value = "";
   email.value = "";

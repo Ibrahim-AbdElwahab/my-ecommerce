@@ -1,13 +1,11 @@
 import { createRouter, createWebHistory } from "vue-router";
 
-// Import الصفحات
 import ProductsPage from "../views/ProductsPage.vue";
 import ProductDetailsPage from "../views/ProductDetailsPage.vue";
 import CartPage from "@/views/CartPage.vue";
 import CheckoutPage from "@/views/CheckoutPage.vue";
 import HomePage from "@/views/HomePage.vue";
 
-// Define routes
 const routes = [
   {
     path: "/",
@@ -36,7 +34,6 @@ const routes = [
   },
 ];
 
-// Create router
 const router = createRouter({
   history: createWebHistory(),
   routes,

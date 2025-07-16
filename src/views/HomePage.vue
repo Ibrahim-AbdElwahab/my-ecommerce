@@ -14,14 +14,12 @@
   </div>
 </template>
 
-<script setup>
-// Simple Landing Page
-</script>
+<script setup></script>
 
 <style scoped>
 .hero {
-  height: calc(100vh - 70px); /* عشان الـ Navbar ثابتة فوق */
-  background: #f8f9fa; /* لون خلفية هادي */
+  height: calc(100vh - 70px);
+  background: #f8f9fa;
 }
 
 .content {

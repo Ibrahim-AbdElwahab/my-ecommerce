@@ -26,14 +26,14 @@ export default {
   margin-top: 60px;
 }
 body {
-  padding-top: 70px; /* نفس ارتفاع الـ Navbar */
-  min-height: 100vh; /* الجسم كله طول الشاشة */
+  padding-top: 70px;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
 }
 
 main {
-  flex: 1; /* يخلي الـ main يتمدد وياخد المساحة كلها */
+  flex: 1;
 }
 </style>
 

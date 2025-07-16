@@ -72,7 +72,7 @@ const cartCount = computed(() => cartStore.items.length);
 }
 
 body {
-  padding-top: 70px; /* عشان الـ Navbar الثابتة */
+  padding-top: 70px;
 }
 </style>
 
