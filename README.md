@@ -13,10 +13,10 @@ This project shows how to build a simple online store with product listings, pro
 
 ## Screenshots
 
-![Home Page](./screenshots/home.png)
-![Products Page](./screenshots/products.png)
-![Product Details](./screenshots/product-details.png)
-![Cart](./screenshots/cart.png)
+![Home Page](./screenshots/Home.png)
+![Products Page](./screenshots/Products.png)
+![Product Details](./screenshots/Product%20Details.png)
+![Cart](./screenshots/Cart.png)
 
 ---
 
